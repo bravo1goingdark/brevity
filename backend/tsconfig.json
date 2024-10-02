@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "ESNext", 
+    "target": "ES2016",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "moduleResolution": "Node", 
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true 
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"],
+  "files": ["src/module/custom.d.ts"] // extending Request interface for custom properties
+}
